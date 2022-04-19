@@ -1,0 +1,25 @@
+Types of Analysis :-
+
+1. Univariate Analysis :- 1 fetaure involved in this analysis.
+2. Bivariate Analysis :- 2 fetaure involved in this analysis.
+3. Multi - variate Analysis :- More than 2 fetaure involved in this analysis.
+
+UNIVARIATE ANALYSIS :- Type of Data, Distribution of Data, Anomolies or Outliers in Data. It is performed on Continuous feature or Numeric feature or Categorical feature(Example: Country, strength). In this analysis for Continuous feature we can use 2 types of analysis:- 
+
+1. Graphical :- Boxplot, Histogram, Distribution plot.
+2. Tabular :- Describe() Function. 
+
+In this analysis for Categorical feature we can below analysis:-
+
+1. Frequency :- value_counts
+2. BAR Chart
+3. Pie Chart
+4. Countplot.
+
+BIVARIATE ANALYSIS :- This analysis is performed to check the relation between the two features (example: x,y). There are three scenarios in this analysis :-
+
+1. x = cat, y = num :- Pie, Donut, Bubble, TreeMap.
+2. x = num, y = num :- Correlation, Scatterplot, Regression.
+3. x = cat, y = cat :- Toy Data, Titanic, Chi - SQ.
+
+Before performing any of the three analysis (Uni, bi and Multi Variate), first we need to look for all the columns in the data and check whether the columns are categorical or numeric in nature.
